@@ -406,8 +406,8 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: zh-Hans # Force language, or auto switch by theme
-  github_user: 28179853 # MUST HAVE, Your Github ID
+  language: # Force language, or auto switch by theme
+  github_user: # MUST HAVE, Your Github ID
   github_repo: # MUST HAVE, The repo you use to store Gitment comments
   client_id: # MUST HAVE, Github client id for the Gitment
   client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
@@ -531,7 +531,7 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
+  enable: true
   app_id: nclb9l5TCb3tHafCyo1ih08E #<app_id>
   app_key: 7zsKpmvFs6hFBQ0GSKXuEa8x #<app_key>
 
